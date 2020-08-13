@@ -1,38 +1,100 @@
-.App {
+body {
+  background-color: #f3efe0 !important;
+  font-size: 2rem;
+}
+
+.background-white {
+  background-color: white;
+}
+
+.profile-container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(150, 199, 199);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.profile-subcontainer {
+  margin: 0.5rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: rgb(15, 120, 120);
+  font-weight: bold !important;
+}
+
+h3 {
+  padding-bottom: 1rem;
+}
+
+h5,
+h6 {
+  font-weight: bold !important;
+}
+
+.color-green {
+  color: rgb(15, 120, 120);
+}
+
+.color-darker-green {
+  color: rgb(7, 56, 56);
+}
+
+.intro {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.comp-container {
+  max-width: 1150px;
+  padding: 2rem 12rem;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+hr {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@media (max-width: 767px) {
+  .hidden-md {
+    display: none;
+  }
+  .comp-container {
+    padding: 2rem;
+  }
+  .skill-list {
+    margin-bottom: 0;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.skill-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-left: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.skill-list > li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skill-list > li:hover {
+  background-color: #f2f2f2;
+}
+
+.skill-list > li:hover > span > svg {
+  transition: all 0.3s;
+  margin-right: 0.2rem;
 }
