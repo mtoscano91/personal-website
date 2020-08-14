@@ -1,25 +1,27 @@
 body {
   background-color: #f3efe0 !important;
   font-size: 2rem;
+  padding-top: 3rem;
 }
 
 .background-white {
   background-color: white;
 }
 
-.profile-container {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: space-around;
-  background-color: rgb(150, 199, 199);
-  border-radius: 1rem;
-  padding: 1rem;
-  margin: 1rem;
+.profile-container > .col-md-4 > img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
 }
 
-.profile-subcontainer {
-  margin: 0.5rem;
+.profile-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(150, 199, 199);
+  border-radius: 1rem;
+  padding: 1.5rem 1rem;
+  margin: 1rem;
 }
 
 h1,
@@ -53,7 +55,7 @@ h6 {
 
 .comp-container {
   max-width: 1150px;
-  padding: 2rem 12rem;
+  padding: 0 12rem 2rem 12rem;
   margin: auto;
 }
 
@@ -76,6 +78,12 @@ ul {
   .skill-list {
     margin-bottom: 0;
   }
+  #profile {
+    text-align: center;
+  }
+  .profile-container > .col-md-4 > img {
+    margin-bottom: 1rem;
+  }
 }
 
 .skill-list {
@@ -97,4 +105,14 @@ ul {
 .skill-list > li:hover > span > svg {
   transition: all 0.3s;
   margin-right: 0.2rem;
+}
+
+#skills:before,
+#profile:before,
+#experiences:before,
+#projects:before {
+  content: "";
+  display: block;
+  height: 60px;
+  margin: -30px 0 0;
 }

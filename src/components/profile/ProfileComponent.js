@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Image, Container } from "react-bootstrap";
 
 export default class ProfileComponent extends Component {
   render() {
@@ -11,33 +10,30 @@ export default class ProfileComponent extends Component {
             <p>Industrial Engineer & Junior Full Stack Web Developer</p>
           </div>
           <hr />
-          <Container className="profile-container">
-            <div className="profile-subcontainer">
+          <div className="profile-container row">
+            <div className="col-md-4">
               <h3 className="color-darker-green">About Me</h3>
               <p>
-                I am a Web Developer (MERN and MEAN stack) with a complementary
-                Business background.
-              </p>
-              <p>
-                On the one hand, I am a highly logical and analytical person and
-                I find complex problems to be challenging.
-              </p>
-              <p>
-                On the other one, I am a people's person: I love working in
-                teams!
+                I am a Web Developer with a complementary Business background
+                looking for roles in Product & Tech. On the one hand, I am a
+                highly logical and analytical person and I find complex problems
+                to be challenging. On the other one, I am a people's person: I
+                love working in teams!
               </p>
             </div>
-            <div className="profile-container">
-              <Image src="./52037.jpg" roundedCircle />
+            <div className="col-md-4 text-center">
+              <img src="./Manuel Toscano.jpg" alt="Manuel Toscano" />
             </div>
-            <div className="profile-subcontainer">
+            <div className="col-md-4">
               <h3 className="color-darker-green">Details</h3>
-              <p>Name:</p>
+              <h5>Name:</h5>
               <p>Manuel Toscano</p>
-              <p>Age:</p>
+              <h5>Age:</h5>
               <p>29 years</p>
+              <h5>Location</h5>
+              <p>Berlin, Germany</p>
             </div>
-          </Container>
+          </div>
         </div>
       </div>
     );

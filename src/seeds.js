@@ -34,7 +34,8 @@ const experiences = {
       dateStart: "Oct 2018",
       dateEnd: "Mar 2020",
       title: "Co-founder",
-      description: "",
+      description:
+        "Objective: Educate people about a holistic approach to their health, while delivering products accordingly. Results: 3.5k followers @ Instagram (@adaptogenics_ar) & approximately 1.000 units sold.",
       location: "Buenos Aires, Argentina",
     },
     {
@@ -79,6 +80,8 @@ const skills = {
   software: [
     { skill: "Excel", stars: 4 },
     { skill: "Powerpoint", stars: 4 },
+    { skill: "SQL", stars: 3 },
+    { skill: "MicroStrategy", stars: 3 },
     { skill: "Javascript", stars: 3 },
     { skill: "React", stars: 3 },
     { skill: "NodeJS", stars: 3 },
