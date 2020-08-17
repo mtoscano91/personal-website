@@ -28,7 +28,7 @@ export default class ProjectDetailComponent extends Component {
                 })}
               </p>
             </figcaption>
-            <svg
+            {/* <svg
               width="1em"
               height="1em"
               viewBox="0 0 16 16"
@@ -44,7 +44,7 @@ export default class ProjectDetailComponent extends Component {
                 fill-rule="evenodd"
                 d="M14.354 1.646a.5.5 0 0 1 0 .708l-8 8a.5.5 0 0 1-.708-.708l8-8a.5.5 0 0 1 .708 0z"
               />
-            </svg>
+            </svg> */}
           </figure>
         </a>
       </div>

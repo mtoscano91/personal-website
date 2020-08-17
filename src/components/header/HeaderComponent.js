@@ -8,7 +8,7 @@ export default class HeaderComponent extends Component {
         <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
           <Navbar.Brand href="#profile">
             <img
-              src="./52037.jpg"
+              src="./Manu Logo.png"
               width="30"
               height="30"
               className="d-inline-block align-top"

@@ -22,7 +22,7 @@ export default class ProfileComponent extends Component {
               </p>
             </div>
             <div className="col-md-4 text-center">
-              <img src="./Manuel Toscano.jpg" alt="Manuel Toscano" />
+              <img src="./Profile pic.jpeg" alt="Manuel Toscano" />
             </div>
             <div className="col-md-4">
               <h3 className="color-darker-green">Details</h3>
@@ -32,6 +32,22 @@ export default class ProfileComponent extends Component {
               <p>29 years</p>
               <h5>Location</h5>
               <p>Berlin, Germany</p>
+              <div className="logo-container">
+                <a href="https://github.com/mtoscano91">
+                  <img
+                    src="./github_PNG83.png"
+                    alt="Github Profile"
+                    className="logo"
+                  />
+                </a>
+                <a href="https://www.linkedin.com/in/manuel-toscano-tech/">
+                  <img
+                    src="./linkedinLogo.png"
+                    alt="LinkedIn Profile"
+                    className="logo"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
