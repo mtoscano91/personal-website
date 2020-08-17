@@ -99,4 +99,35 @@ const skills = {
   ],
 };
 
-export { experiences, skills };
+const projects = [
+  {
+    title: "Kinder Class",
+    description: "MVP Educational playground for kids",
+    tags: ["MongoDB", "Express", "React", "Node"],
+    imgUrl: "./projects/KinderClass.png",
+    url: "http://kinder-class.herokuapp.com/",
+  },
+  {
+    title: "Live Chat",
+    description: "MVP Live chat",
+    tags: ["Reat", "Node", "Socket.io"],
+    imgUrl: "./projects/LiveChat.png",
+    url: "https://manu-live-chat.herokuapp.com/",
+  },
+  {
+    title: "Ironcook",
+    description: "MVP Social network cooking website",
+    tags: ["MongoDB", "Express", "Handlebars", "Node"],
+    imgUrl: "./projects/Ironcook2.png",
+    url: "http://ironcook.herokuapp.com/",
+  },
+  {
+    title: "Gravity Runner",
+    description: "Infinite runner space game",
+    tags: ["P5", "Javascript"],
+    imgUrl: "./projects/GravityRunner.png",
+    url: "https://mtoscano91.github.io/Gravity-runner/",
+  },
+];
+
+export { experiences, skills, projects };
