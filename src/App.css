@@ -172,6 +172,7 @@ ul {
   flex-direction: column;
   padding-top: 1vh;
   padding-left: 3vh;
+  width: 100%;
 }
 
 #projects a figure figcaption hr {
