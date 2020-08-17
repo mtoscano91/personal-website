@@ -133,6 +133,7 @@ ul {
 #projects a figure img {
   max-width: 100%;
   height: auto;
+  width: 100% !important;
 }
 
 #projects a figure figcaption {
@@ -140,8 +141,6 @@ ul {
   opacity: 0;
   z-index: 1;
   transition: 0.35s;
-  width: 100%;
-  height: auto;
 }
 
 #projects a figure figcaption h5 {
@@ -192,17 +191,6 @@ ul {
 
 a {
   text-decoration: none;
-}
-
-.bi-box-arrow-up-right {
-  background: rgb(15, 120, 120);
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  width: 40px;
-  height: 40px;
-  color: white;
-  z-index: 2;
 }
 
 .landing {
