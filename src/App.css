@@ -97,6 +97,9 @@ ul {
   .profile-container > .col-md-4 > img {
     margin-bottom: 1rem;
   }
+  #projects a figure {
+    align-items: flex-start;
+  }
 }
 
 .skill-list {
@@ -161,7 +164,6 @@ ul {
   display: flex;
   position: relative;
   overflow: hidden;
-  align-items: flex-start;
 }
 
 #projects a figure:hover figcaption {
