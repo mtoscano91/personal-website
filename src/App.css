@@ -205,7 +205,7 @@ a {
 }
 
 .landing {
-  background: no-repeat center right fixed
+  background: no-repeat center fixed
     url("https://mtoscano91.github.io/personal-website/Landing2.jpeg");
   margin-bottom: 0px !important;
   padding: 0px;
@@ -218,6 +218,7 @@ a {
   z-index: 1;
   text-align: center;
   max-width: 100%;
+  height: auto;
 }
 
 .landing .container .lead {
