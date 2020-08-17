@@ -203,7 +203,8 @@ a {
 }
 
 .landing {
-  background: no-repeat center right fixed url("/build/Landing2.jpeg");
+  background: no-repeat center right fixed
+    url("https://mtoscano91.github.io/personal-website/Landing2.jpeg");
   margin-bottom: 0px !important;
   padding: 0px;
   object-fit: cover;
