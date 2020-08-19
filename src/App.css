@@ -199,8 +199,7 @@ a {
 }
 
 .landing {
-  /* background: no-repeat center fixed
-    url("https://mtoscano91.github.io/personal-website/Landing2.jpeg"); */
+  background: no-repeat center fixed url("/Landing2.jpeg");
   margin-bottom: 0px !important;
   padding: 0px;
   object-fit: cover;

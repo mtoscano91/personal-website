@@ -8,8 +8,6 @@ export default class LandingComponent extends Component {
         className="landing"
         style={{
           height: 618 + "px",
-          background: "no-repeat center fixed",
-          backgroundImage: process.env.PUBLIC_URL + "/Landing2.jpeg",
         }}
       >
         <div className="container">
