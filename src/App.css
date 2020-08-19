@@ -199,7 +199,9 @@ a {
 }
 
 .landing {
-  background: no-repeat center fixed;
+  background: no-repeat center fixed
+    url("https://mtoscano91.github.io/personal-website/Landing2.jpeg");
+  filter: grayscale(100%);
   margin-bottom: 0px !important;
   padding: 0px;
   object-fit: cover;
@@ -215,7 +217,7 @@ a {
 
 .landing .container .lead {
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .landing .container h1 {
@@ -227,6 +229,4 @@ a {
 .landing .container > * {
   text-align: center;
   color: white;
-  -webkit-text-stroke-width: 0.7px;
-  -webkit-text-stroke-color: black;
 }
