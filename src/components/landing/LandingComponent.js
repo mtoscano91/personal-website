@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import landingImg from "../../Landing2.jpeg";
 
 export default class LandingComponent extends Component {
   render() {
@@ -8,6 +9,7 @@ export default class LandingComponent extends Component {
         className="landing"
         style={{
           height: 618 + "px",
+          backgroundImage: landingImg,
         }}
       >
         <div className="container">
