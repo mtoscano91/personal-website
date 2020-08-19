@@ -3,7 +3,15 @@ import React, { Component } from "react";
 export default class LandingComponent extends Component {
   render() {
     return (
-      <div id="top" className="landing" style={{ height: 618 + "px" }}>
+      <div
+        id="top"
+        className="landing"
+        style={{
+          height: 618 + "px",
+          background: "no-repeat center fixed",
+          backgroundImage: process.env.PUBLIC_URL + "/Landing2.jpeg",
+        }}
+      >
         <div className="container">
           <h1>Manuel Toscano</h1>
           <p className="lead">Personal Website</p>
