@@ -90,6 +90,8 @@ const skills = {
     { skill: "CSS", stars: 3 },
     { skill: "MongoDB", stars: 3 },
     { skill: "MixPanel", stars: 3 },
+    { skill: "Google Analytics", stars: 2 },
+    { skill: "Tableau", stars: 2 },
     { skill: "Angular", stars: 2 },
     { skill: "Typescript", stars: 2 },
   ],
