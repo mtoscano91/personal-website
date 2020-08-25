@@ -7,18 +7,19 @@ export default class ProfileComponent extends Component {
         <div id="profile" className="comp-container">
           <div className="intro">
             <h1>Profile</h1>
-            <p>Industrial Engineer & Junior Full Stack Web Developer</p>
+            <p>Industrial Engineer & Full Stack Web Developer</p>
           </div>
           <hr />
           <div className="profile-container row">
             <div className="col-md-4">
               <h3 className="color-darker-green">About Me</h3>
               <p>
-                I am an Industrial Engineer & Web Developer with a complementary
-                Business background looking for roles in Product & Tech. On the
-                one hand, I am a highly logical and analytical person and I find
-                complex problems to be challenging. On the other one, I am a
-                people's person: I love working in teams!
+                My goal is to help bridge the gap between Business and Tech, by
+                being able to understand the goals and struggles in both parties
+                and find the best possible solutions. On the one hand, I am a
+                highly logical and analytical person and I find complex problems
+                to be challenging. On the other one, I am a people's person: I
+                love working in teams!
               </p>
             </div>
             <div className="col-md-4 text-center">
